@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">実績</a></li>
+                <li><a href="#projects">プロジェクト</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <h1>竹下 暖人</h1>
+            <p>東京情報大学 総合情報学部 3年生</p>
+            <p>エンジニアを目指しています</p>
+        </section>
+
+        <section id="achievements" class="section">
+            <h2>大会実績</h2>
+            <div class="achievement-card">
+                <h3>WRO 全国大会ジュニアの部 2019</h3>
+                <p>本選出場 / 地域大会優勝</p>
+            </div>
+            <div class="achievement-card">
+                <h3>情報オリンピック 第21回 (JOI 2021/2022)</h3>
+                <p>本選出場</p>
+            </div>
+            <div class="achievement-card">
+                <h3>パソコン甲子園 2021</h3>
+                <p>本選出場 / 静岡県内8位</p>
+            </div>
+            <div class="achievement-card">
+                <h3>東京情報大学プログラミングコンテスト 2023</h3>
+                <p>C言語部門3位</p>
+            </div>
+            <div class="achievement-card">
+                <h3>東京情報大学プログラミングコンテスト 2024</h3>
+                <p>C言語部門優勝</p>
+            </div>
+            <div class="achievement-card">
+                <h3>東京情報大学24年度ソフトウェアコンテスト 2024</h3>
+                <ul>
+                    <li>動画文字起こし＆概要要約ソフト - プログラム部門1位</li>
+                    <li>アルゴリズム可視化ソフト - プログラム部門2位</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>プロジェクト</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>動画文字起こし＆概要要約ソフト</h3>
+                    <p>Python / faster-whisper / Flet / Gemini API</p>
+                    <ul>
+                        <li>高速な文字起こしとコピー機能</li>
+                        <li>再生位置に合わせたリアルタイム字幕</li>
+                        <li>Gemini APIで話題別・全体要約を生成</li>
+                    </ul>
+                    <div class="button-group">
+                        <a href="https://github.com/asfrgrtgd/fortheinfocon1" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://youtu.be/U2m9FK3W_DI" class="button" target="_blank" rel="noopener noreferrer">動画</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>アルゴリズム可視化ソフト</h3>
+                    <p>C++ / OpenSiv3D</p>
+                    <ul>
+                        <li>探索・ソートなど多彩なアルゴリズムを実演</li>
+                        <li>時間・空間計算量をグラフで表示</li>
+                        <li>モジュール化された拡張しやすい構造</li>
+                    </ul>
+                    <div class="button-group">
+                        <a href="https://github.com/asfrgrtgd/fortheinfocon2" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://youtu.be/vD1K3j31XfU?si=TsweS36kEDsiA-Ae" class="button" target="_blank" rel="noopener noreferrer">動画</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Auction Browser</h3>
+                    <p>Python / Flask</p>
+                    <ul>
+                        <li>Minecraftサーバーのオークション検索サイト</li>
+                        <li>Renderの無料枠上で運用中</li>
+                    </ul>
+                    <div class="button-group">
+                        <a href="https://github.com/asfrgrtgd/auction_browser" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://auction-browser.onrender.com" class="button" target="_blank" rel="noopener noreferrer">サイトへ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
