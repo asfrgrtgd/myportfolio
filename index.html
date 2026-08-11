@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <canvas id="bg-canvas"></canvas>
     <header>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#achievements">実績</a></li>
+                <li><a href="#achievements">大会実績</a></li>
+                <li><a href="#experience">実務実績</a></li>
                 <li><a href="#projects">プロジェクト</a></li>
             </ul>
         </nav>
@@ -21,8 +21,8 @@
     <main>
         <section id="about" class="section">
             <h1>竹下 暖人</h1>
-            <p>東京情報大学 総合情報学部 3年生</p>
-            <p>エンジニアを目指しています</p>
+            <p>東京情報大学 総合情報学部 4年生</p>
+            <p>SWEを目指しています</p>
         </section>
 
         <section id="achievements" class="section">
@@ -40,12 +40,16 @@
                 <p>本選出場 / 静岡県内8位</p>
             </div>
             <div class="achievement-card">
-                <h3>東京情報大学プログラミングコンテスト 2023</h3>
+                <h3>第1回 東京情報大学プログラミングコンテスト 2023</h3>
                 <p>C言語部門3位</p>
             </div>
             <div class="achievement-card">
-                <h3>東京情報大学プログラミングコンテスト 2024</h3>
+                <h3>第2回 東京情報大学プログラミングコンテスト 2024</h3>
                 <p>C言語部門優勝</p>
+            </div>
+            <div class="achievement-card">
+                <h3>第3回 東京情報大学プログラミングコンテスト 2025</h3>
+                <p>Pythonペア部門優勝</p>
             </div>
             <div class="achievement-card">
                 <h3>東京情報大学24年度ソフトウェアコンテスト 2024</h3>
@@ -54,6 +58,60 @@
                     <li>アルゴリズム可視化ソフト - プログラム部門2位</li>
                 </ul>
             </div>
+            <div class="achievement-card">
+                <h3>東京情報大学25年度ソフトウェアコンテスト 2025</h3>
+                <ul>
+                    <li>情報大オンラインジャッジ - プログラム部門1位</li>
+                    <li>情報食堂 - プログラム部門3位</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>実務実績</h2>
+            <div class="experience-list">
+                <article class="experience-card">
+                    <div class="experience-heading">
+                        <h3>株式会社エクサウィザーズ</h3>
+                        <time datetime="2025-08/2025-09">2025年8月〜9月</time>
+                    </div>
+                    <p class="experience-role">サマーインターンシップ / バックエンドエンジニア</p>
+                    <ul class="tech-list" aria-label="使用技術">
+                        <li tabindex="0" data-tooltip="Python" aria-label="Python">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="Django" aria-label="Django">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="">
+                        </li>
+                    </ul>
+                    <p>法人向け生成AIサービス「exaBase 生成AI」のプロダクト改善に従事。主に新規AIエージェントの設計・導入に取り組みました。</p>
+                </article>
+                <article class="experience-card">
+                    <div class="experience-heading">
+                        <h3>株式会社HQ</h3>
+                        <time datetime="2025-10">2025年10月〜現在</time>
+                    </div>
+                    <p class="experience-role">長期インターン / フルスタックエンジニア</p>
+                    <ul class="tech-list" aria-label="使用技術">
+                        <li tabindex="0" data-tooltip="TypeScript" aria-label="TypeScript">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="Go" aria-label="Go">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="Remix" aria-label="Remix">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/remix/remix-original.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="GitHub Actions" aria-label="GitHub Actions">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="GCP" aria-label="GCP">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" alt="">
+                        </li>
+                    </ul>
+                    <p>「リモートHQ」のプロダクト開発に参画。管理画面の開発や既存機能の改善に加え、DevOps領域にも取り組んでいます。</p>
+                </article>
+            </div>
         </section>
 
         <section id="projects" class="section">
@@ -61,20 +119,33 @@
             <div class="project-grid">
                 <div class="project-card">
                     <h3>動画文字起こし＆概要要約ソフト</h3>
-                    <p>Python / faster-whisper / Flet / Gemini API</p>
+                    <ul class="tech-list" aria-label="使用技術">
+                        <li tabindex="0" data-tooltip="Python 3.10.14" aria-label="Python 3.10.14">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="">
+                        </li>
+                    </ul>
                     <ul>
-                        <li>高速な文字起こしとコピー機能</li>
+                        <li>高速な文字起こし</li>
                         <li>再生位置に合わせたリアルタイム字幕</li>
                         <li>Gemini APIで話題別・全体要約を生成</li>
                     </ul>
                     <div class="button-group">
                         <a href="https://github.com/asfrgrtgd/fortheinfocon1" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        <a href="https://youtu.be/U2m9FK3W_DI" class="button" target="_blank" rel="noopener noreferrer">動画</a>
+                    </div>
+                    <div class="video-wrap">
+                        <iframe src="https://www.youtube-nocookie.com/embed/U2m9FK3W_DI" title="動画文字起こし＆概要要約ソフトの紹介動画" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="project-card">
                     <h3>アルゴリズム可視化ソフト</h3>
-                    <p>C++ / OpenSiv3D</p>
+                    <ul class="tech-list" aria-label="使用技術">
+                        <li tabindex="0" data-tooltip="C++" aria-label="C++">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="Visual Studio 2022" aria-label="Visual Studio 2022">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" alt="">
+                        </li>
+                    </ul>
                     <ul>
                         <li>探索・ソートなど多彩なアルゴリズムを実演</li>
                         <li>時間・空間計算量をグラフで表示</li>
@@ -82,26 +153,75 @@
                     </ul>
                     <div class="button-group">
                         <a href="https://github.com/asfrgrtgd/fortheinfocon2" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        <a href="https://youtu.be/vD1K3j31XfU?si=TsweS36kEDsiA-Ae" class="button" target="_blank" rel="noopener noreferrer">動画</a>
+                    </div>
+                    <div class="video-wrap">
+                        <iframe src="https://www.youtube-nocookie.com/embed/vD1K3j31XfU" title="アルゴリズム可視化ソフトの紹介動画" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="project-card">
-                    <h3>Auction Browser</h3>
-                    <p>Python / Flask</p>
+                    <h3>情報大オンラインジャッジ</h3>
+                    <ul class="tech-list" aria-label="使用技術">
+                        <li tabindex="0" data-tooltip="Go / Gin" aria-label="Go / Gin">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="React" aria-label="React">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="TypeScript" aria-label="TypeScript">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="Docker" aria-label="Docker">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="PostgreSQL" aria-label="PostgreSQL">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="Redis" aria-label="Redis">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="">
+                        </li>
+                    </ul>
                     <ul>
-                        <li>Minecraftサーバーのオークション検索サイト</li>
-                        <li>Renderの無料枠上で運用中</li>
+                        <li>C / C++ / Python / Javaの提出をgo-judgeで自動採点</li>
+                        <li>Redisキューとワーカーで採点処理を非同期化</li>
+                        <li>問題・ユーザー・お知らせ・稼働状況を管理できる独自CMS</li>
                     </ul>
                     <div class="button-group">
-                        <a href="https://github.com/asfrgrtgd/auction_browser" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        <a href="https://auction-browser.onrender.com" class="button" target="_blank" rel="noopener noreferrer">サイトへ</a>
+                        <a href="https://github.com/asfrgrtgd/tuis-oj-base" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                    <div class="video-wrap">
+                        <iframe src="https://www.youtube-nocookie.com/embed/RQUkGLxv7hI" title="情報大オンラインジャッジの紹介動画" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>情報食堂</h3>
+                    <ul class="tech-list" aria-label="使用技術">
+                        <li tabindex="0" data-tooltip="React" aria-label="React">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="TypeScript" aria-label="TypeScript">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="">
+                        </li>
+                        <li tabindex="0" data-tooltip="Vite" aria-label="Vite">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="">
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>写真・価格付きで学食メニューを一覧・詳細表示</li>
+                        <li>メニューごとの「おいしかった」投票機能</li>
+                        <li>Cloudflare Pages FunctionsとD1で投票数を保存</li>
+                    </ul>
+                    <div class="button-group">
+                        <a href="https://github.com/asfrgrtgd/johosyokudou-base" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://aed1a30f.johosyokudou.pages.dev/" class="button" target="_blank" rel="noopener noreferrer">サイト</a>
+                    </div>
+                    <div class="video-wrap">
+                        <iframe src="https://www.youtube-nocookie.com/embed/MTnmD5hgGQo" title="情報食堂の紹介動画" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </section>
-
     </main>
 
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
